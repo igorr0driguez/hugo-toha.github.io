@@ -11,15 +11,15 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageName: English
-    weight: 2
   pt-br:
     languageName: Português
     weight: 1
+  # en:
+  #   languageName: English
+  #   weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
+DefaultContentLanguage: pt-br
 
 # Allow raw html in markdown file
 markup:
@@ -55,18 +55,18 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/igorr0driguez/hugo-toha.github.io
+  gitRepo: https://github.com/igorr0driguez/site.curso
   # Default branch of your Git repo
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 7
 
   # Enable dark theme
   darkMode:
     provider: darkreader
-    enable: true
+    enable: false
     default: system
 
   # Configure various features of this theme
@@ -75,20 +75,20 @@ params:
     portfolio:
       enable: true
     # Enable and configure blog posts
-    blog:
-      enable: true
-      # Share post on different social media
-      shareButtons:
-        facebook: false
-        twitter: true
-        linkedin: false
-        reddit: false
-        whatsapp: true
-        email: true
-        # tumblr: true
-        # pocket: true
-        # diaspora: true
-        # mastodon: true
+    # blog:
+    #   enable: true
+    #   # Share post on different social media
+    #   shareButtons:
+    #     facebook: false
+    #     twitter: true
+    #     linkedin: false
+    #     reddit: false
+    #     whatsapp: true
+    #     email: true
+    #     # tumblr: true
+    #     # pocket: true
+    #     # diaspora: true
+    #     # mastodon: true
 
     # Enable & configure "Notes" features
     notes:

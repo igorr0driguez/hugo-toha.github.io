@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: Sobre
   id: about
   enable: true
   weight: 1
@@ -32,26 +32,33 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/example"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
+  url: "#"
+  
+- name: Instagram
+  icon: "fab fa-instagram"
   url: "#"
 
 - name: Twitter
   icon: "fab fa-twitter"
   url: "#"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
+# - title: "My Resume"
+#   url: "files/resume.pdf"
+
+- title: "Contato"
   url: "files/resume.pdf"
 
 # Show your badges
