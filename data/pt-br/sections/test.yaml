@@ -1,0 +1,8 @@
+section:
+  name: test
+  id: test
+  enable: false
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
